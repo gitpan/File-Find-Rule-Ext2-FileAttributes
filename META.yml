@@ -1,0 +1,15 @@
+---
+name: File-Find-Rule-Ext2-FileAttributes
+version: 0.01
+author:
+  - 'Dean Wilson <dean.wilson@gmail.com>'
+abstract: rules to match on Ext2::FileAttributes
+license: perl
+build_requires:
+  Linux::Ext2::FileAttributes: 0
+  Test::More: 0
+provides:
+  File::Find::Rule::Ext2::FileAttributes:
+    file: lib/File/Find/Rule/Ext2/FileAttributes.pm
+    version: 0.01
+generated_by: Module::Build version 0.26
