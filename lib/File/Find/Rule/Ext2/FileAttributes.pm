@@ -8,7 +8,7 @@ use base qw( File::Find::Rule );
 use vars qw( $VERSION @EXPORT );
 
 @EXPORT  = @File::Find::Rule::EXPORT;
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 =head1 NAME
 
@@ -69,9 +69,9 @@ __END__
 
 =head1 AUTHOR
 
-Dean Wilson <dean.wilson@gmail.com>
+Dean Wilson <dean.wilson@gmail.com> L<http://www.unixdaemon.net>
 
-=head1 COPYRIGHT
+=head1 LICENCE AND COPYRIGHT
 
 Copyright 2008 Dean Wilson. All Rights Reserved.
 
